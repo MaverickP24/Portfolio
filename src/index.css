@@ -24,3 +24,13 @@
   font-family: anzo9;
   src: url("./assets/madefor-text.var.original.woff2");
 }
+
+
+#main{
+  perspective: 1000;
+}
+#tiltDiv{
+  /* background-color: red; */
+  width: fit-content;
+  transform: rotateY(0deg);
+}

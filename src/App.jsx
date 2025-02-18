@@ -1,7 +1,7 @@
 import React from 'react'
 import "./index.css"
-import Page1 from './pages/Page1'
-import Navbar from './components/Navbar'
+import Page1 from './pages/page1'
+import Navbar from './components/pavbar'
 import Page2 from './pages/Page2'
 
 

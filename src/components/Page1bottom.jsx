@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Page1bottom = () => {
+function Page1bottom(){
   return (
     <div className='absolute left-10 p-10 bottom-0 w-full '>
         <div>

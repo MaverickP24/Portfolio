@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tilttext = () => {
+function Tilttext(){
   return (
     <>
     <div className='mt-65'>

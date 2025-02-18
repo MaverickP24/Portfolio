@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Page2 from './pages/Page2'
 import "./index.css"
 import Page1 from './pages/page1'
+import Navbar from './components/navbar'
+import Page2 from './pages/Page2'
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Navbar/>
       <Page1/>
-      <Page2/>
+      <Page2 />
     </>
   )
 }

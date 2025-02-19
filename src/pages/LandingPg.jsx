@@ -75,8 +75,11 @@ const LandingPg = () => {
                 </a>
             </div>
 
-            <img className='h-20 relative z-20' src="src/assets/logo.png"></img>
+{/* LOGO */}
 
+            <div><img className='h-20 relative z-20' src="src/assets/logo.png"></img></div>
+
+{/* Main Texts */}
             {/* <Tilttext/> */}
             <div id='tiltDiv' ref={tiltref} className='mt-65'>
                 <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[alag anzo]'>Heyy, <span className='text-emerald-500 lowercase text-[5.7vw]'>I am</span>{'>'}</h1>

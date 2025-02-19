@@ -81,9 +81,9 @@ function Page1(){
 
             {/* <Tilttext/> */}
             <div id='tiltDiv' ref={tiltref} className='mt-65'>
-                <h1 className='text-[4.2vw] leading-[4vw] uppercase font-[anzo3]'>I am <span className='text-emerald-500 text-[5.7vw]'>CREATIVE</span>{'>'}</h1>
-                <h1 className='text-[8.2vw] leading-[7vw] uppercase font-[anzo3]'>DEVELOPER</h1>
-                <h1 className='text-[4.2vw] leading-[4vw] uppercase font-[anzo3]'>To Hire .</h1>
+                <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[alag anzo]'>Heyy, <span className='text-emerald-500 lowercase text-[5.7vw]'>I am</span>{'>'}</h1>
+                <h1 className='text-[8.2vw] leading-[7vw] uppercase font-[anzo3]'>Pratyush</h1>
+                <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[anzo3]'>Parida</h1>
             </div>
 
             <Page1bottom/>

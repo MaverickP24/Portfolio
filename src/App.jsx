@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-import Page1 from './pages/page1'
+import Page1 from './pages/Page1'
 import Navbar from './components/navbar'
 import Page2 from './pages/Page2'
 import Skills from './pages/Skills'

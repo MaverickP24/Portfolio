@@ -77,7 +77,7 @@ const LandingPg = () => {
 
 {/* LOGO */}
 
-            <div><img className='h-20 relative z-20' src="src/assets/logo.png"></img></div>
+            <div className='h-20 w-20 relative z-20'><img className='h-full w-full' src="src/assets/logoP.png" alt='P'></img></div>
 
 {/* Main Texts */}
             {/* <Tilttext/> */}

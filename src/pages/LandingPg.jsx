@@ -32,12 +32,12 @@ const LandingPg = () => {
     <div id='page1' onMouseMove={(e)=>{
         mouseMoving(e)
     }} className='h-screen w-full p-4 mx-auto text-white' >
-        <div id='page1-in' className=" shadow-2xl shadow-gray-700 h-full w-full bg-[url('./assets/face4.jpg')] bg-[length:120%]  bg-left py-10 px-12 rounded-4xl">
+        <div id='page1-in' className=" shadow-2xl shadow-gray-700 h-full w-full bg-[url('src/assets/face4.jpg')] bg-[length:120%]  bg-left py-10 px-12 rounded-4xl">
             <div className=" mix-blend-multiply m-4 mb-1 p-6 rounded-4xl h-[96.6vh] w-full bg-gradient-to-r from-black to-transparent  top-0 left-0  absolute "></div>
 
             {/* LOGO */}
 
-            <div className='h-20 w-20 relative z-20'><img className='h-full w-full' src="src/assets/logoP.png" alt='P'></img></div>
+            <div className='h-20 w-20 relative z-20'><img className='h-full w-full' src="https://i.imgur.com/8kPyhdL.png" alt='P'></img></div>
 
             <div className=" absolute text-black right-[2.5%] top-[50%] flex flex-col items-center justify-end z-40 gap-5">
                 <a href="#" className=' h-10 w-10 border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750'>

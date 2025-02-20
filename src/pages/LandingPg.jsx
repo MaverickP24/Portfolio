@@ -35,6 +35,10 @@ const LandingPg = () => {
         <div id='page1-in' className=" shadow-2xl shadow-gray-700 h-full w-full bg-[url('./assets/face4.jpg')] bg-[length:120%]  bg-left py-10 px-12 rounded-4xl">
             <div className=" mix-blend-multiply m-4 mb-1 p-6 rounded-4xl h-[96.6vh] w-full bg-gradient-to-r from-black to-transparent  top-0 left-0  absolute "></div>
 
+            {/* LOGO */}
+
+            <div className='h-20 w-20 relative z-20'><img className='h-full w-full' src="src/assets/logoP.png" alt='P'></img></div>
+
             <div className=" absolute text-black right-[2.5%] top-[50%] flex flex-col items-center justify-end z-40 gap-5">
                 <a href="#" className=' h-10 w-10 border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -75,14 +79,12 @@ const LandingPg = () => {
                 </a>
             </div>
 
-{/* LOGO */}
 
-            <div className='h-20 w-20 relative z-20'><img className='h-full w-full' src="src/assets/logoP.png" alt='P'></img></div>
 
 {/* Main Texts */}
             {/* <Tilttext/> */}
             <div id='tiltDiv' ref={tiltref} className='mt-65'>
-                <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[alag anzo]'>Heyy, <span className='text-emerald-500 lowercase text-[5.7vw]'>I am</span>{'>'}</h1>
+                <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[alag anzo]'>Heyy, <span className='text-emerald-500 lowercase text-[5.7vw]'>this is</span>{'>'}</h1>
                 <h1 className='text-[8.2vw] leading-[7vw] uppercase font-[anzo3]'>Pratyush</h1>
                 <h1 className='text-[4.2vw] leading-[4vw] ml-1 uppercase font-[anzo3]'>Parida</h1>
             </div>

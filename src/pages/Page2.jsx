@@ -38,7 +38,7 @@ function Page2(){
               </a>
             </div>
             </div>
-            <a href="https://sundown-studio-clone-nine.vercel.app/" className="dot z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-orange-500"></a>
+            <a href="https://sundown-studio-clone-nine.vercel.app/" className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-orange-500"></a>
             <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[51%] border-t-1 border-orange-500"></div>
 
 
@@ -56,7 +56,7 @@ function Page2(){
             </div>
 
 
-            <a href="https://reigns-god.vercel.app//" className="dot z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-blue-500"></a>
+            <a href="https://reigns-god.vercel.app//" className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-blue-500"></a>
             <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[15%] border-t-1 border-blue-500"></div>
 
 
@@ -112,7 +112,7 @@ function Page2(){
             </div>
 
 
-            <a href="https://pratyush-capstone.netlify.app" className="dot z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-black"></a>
+            <a href="https://pratyush-capstone.netlify.app" className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-black"></a>
             <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[51%] border-t-1 border-black"></div>
 
         </div>

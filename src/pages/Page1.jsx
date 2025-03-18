@@ -38,7 +38,7 @@ function Page1(){
             <div className=" mix-blend-multiply m-4 mb-1 p-6 rounded-4xl h-[96.6vh] w-full bg-gradient-to-r from-black to-transparent  top-0 left-0  absolute "></div>
 
             <div className=" absolute text-black right-[2.5%] top-[50%] flex flex-col items-center justify-end z-40 gap-5">
-                <a href="#" className=' h-10 w-10 border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750'>
+                <a href="https://www.linkedin.com/in/pratyush-parida-552941264/" className=' h-10 w-10 border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path
                             fill="currentColor"

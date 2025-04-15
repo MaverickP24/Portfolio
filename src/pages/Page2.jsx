@@ -82,43 +82,6 @@ function Page2(){
         </div>
 
 
-        <div className="p3 relative flex justify-between items-center flex-row w-full px-15 py-6">
-
-            <div className="details w-[35vw] h-auto">
-              <h3 className='text-3xl font-[Skia] mb-4'>Alex's Portfolio</h3>
-              <span>(Capestone Project)</span>
-              <p className='my-4 font-[Skia]'>A fully responsive website using HTML and CSS as part of the First Semester Final Project. The project focused on creating an intuitive and visually appealing user interface while ensuring cross-device compatibility and modern design principles.</p>
-              <ul className='w-full flex gap-2 mt-2 font-[American Typewriter]'>
-                <li>
-                  <h5 className='border-2 font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>HTML</h5>
-                </li>
-                <li>
-                  <h5 className='border-2 font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>CSS</h5>
-                </li>
-                {/* <li>
-                  <h5 className='border-2 font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>Javascript</h5>
-                </li> */}
-                <li>
-                  <h5 className='border-2 font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>Figma</h5>
-                </li>
-              </ul>
-            </div>
-            <div className="img-details w-[30vw] h-auto  ">
-              <div className="imageWRAP flex items-end">
-              <a className='' href="https://pratyush-capstone.netlify.app//">
-                <img src="https://i.imgur.com/VGmQMNs.png" alt="a" className=' object-cover hover:scale-120 transition duration-300' />
-              </a>
-            </div>
-            </div>
-
-
-            <a href="https://pratyush-capstone.netlify.app" className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-black"></a>
-            <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[51%] border-t-1 border-black"></div>
-
-        </div>
-
-
-    
             
     </div>
   

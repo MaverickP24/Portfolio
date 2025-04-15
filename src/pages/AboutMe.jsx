@@ -29,12 +29,12 @@ const AboutMe = () => {
                     </svg>
                     </a>
                 </div>
-                <div className="location border-1 rounded-4xl border-zinc-400 w-[20vw] h-[15vw]  object-top overflow-hidden relative">
+                <div className="location border-1  rounded-4xl border-zinc-400 w-[20vw] h-[15vw]  object-top overflow-hidden relative">
                     <img className=' absolute top-10 left-2 h-full w-full  scale-[140%] object-top' src="https://i.imgur.com/LAkzOFj.png" alt="L" />
                 </div>
                 
             </div>
-            <div className="aboutme flex flex-row gap-6 ">
+            <div className="aboutme flex flex-row gap-6  ">
                 <div className="CV border-1 relative rounded-4xl border-zinc-400 w-[25vw] h-[15vw] bg-black flex flex-col items-center font-[anzo3] overflow-y-hidden group ">
                     <h2 className=' text-2xl text-white pt-4 pb-2 '>My Curriculum Vitae</h2>
                     <h5 className='text-[15px] text-white font-[anzo]'>Hover to Download</h5>

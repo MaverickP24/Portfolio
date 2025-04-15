@@ -32,7 +32,7 @@ const LandingPg = () => {
     <div id='page1' onMouseMove={(e)=>{
         mouseMoving(e)
     }} className='h-screen w-full p-4 mx-auto text-white' >
-        <div id='page1-in' className="shadow-2xl shadow-gray-700 h-full w-full bg-[url('src/assets/face.jpg')] bg-[length:120%] bg-left py-10 px-12 rounded-4xl">
+        <div id='page1-in' className="shadow-2xl shadow-gray-700 h-full w-full bg-[url(https://i.imgur.com/8SxDB1S.jpeg)] bg-[length:120%] bg-left py-10 px-12 rounded-4xl">
             <div className=" mix-blend-multiply m-4 mb-1 p-6 rounded-4xl h-[96.6vh] w-full bg-gradient-to-r from-black to-transparent  top-0 left-0  absolute "></div>
 
             {/* LOGO */}

@@ -11,13 +11,13 @@ import AboutMe from './pages/AboutMe'
 const App = () => {
   return (
     <>
-      <div>
+      <div className='w-screen h-[105vh] overflow-hidden relative -scale-[99%] -left-2'>
         
         <LandingPg/>
+      </div>
         <Page2 />
         <Skills/>
         <AboutMe/>
-      </div>
     </>
   )
 }

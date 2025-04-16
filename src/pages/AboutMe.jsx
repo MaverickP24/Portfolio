@@ -17,7 +17,7 @@ const AboutMe = () => {
                     <div className="lower relative flex flex-row justify-between">
                         <div>
                         <div className="font-[alag anzo] px-12"><h1 className='text-2xl font-bold'>Pratyush</h1></div>
-                        <div className="font-[anzo] px-12"><h1 className='text-[15px] font-light'>GAWD24</h1></div>
+                        <div className="font-[anzo] px-12"><h1 className='text-[15px] font-light'>MaverickP24</h1></div>
                         </div>
                         <button className='px-5 py-3 '><h3 className=' text-[15px]  border-1 border-zinc-500 bg-emerald-300 px-4 py-2 rounded-4xl '>5 Public Projects</h3></button>
                     </div>

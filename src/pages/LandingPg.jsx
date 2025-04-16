@@ -28,7 +28,7 @@ const LandingPg = () => {
 
   return (
     <>
-    <div className='h-screen w-full' >
+    <div className='h-screen w-screen' >
     <div id='page1' onMouseMove={(e)=>{
         mouseMoving(e)
     }} className='h-screen w-full p-4 mx-auto text-white' >

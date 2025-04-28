@@ -43,7 +43,7 @@ const LandingPg = () => {
             <div className='h-[6vw] w-[6vw] absolute top-5 left-5 z-20'><img className='h-full w-full' src="https://i.imgur.com/8kPyhdL.png" alt='P'></img></div>
 
             <div className="hidden md:block">
-            <div className=" absolute text-zinc-800 right-[2.5%] top-[50%] flex flex-col items-center justify-end z-40 gap-5 ">
+            <div className=" absolute text-zinc-800 right-[2.5%] top-[50%] flex flex-col items-center justify-end z-1000 gap-5 ">
                 <a href="https://www.linkedin.com/in/pratyush-parida-552941264/" target="_blank" className='text-zinc-800 h-[2.5vw] w-[2.5vw]   border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path
@@ -65,21 +65,21 @@ const LandingPg = () => {
                     </svg>
                 </a>
                 <a href="https://my.newtonschool.co/user/thepratyushparida" target="_blank" className=' h-[2.5vw] w-[2.5vw]  border-2 p-2 rounded-xl hover:bg-amber-50 transition-normal duration-750 flex justify-center items-center'>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-user"
-                >
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-user"
+                    >
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
                 </a>
             </div>
             </div>

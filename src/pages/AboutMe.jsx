@@ -23,7 +23,7 @@ const AboutMe = () => {
                         </div>
                         <button className='md:px-5 md:py-3  px-[2vw] py-[1vw] hidden md:block '><h3 className=' text-[1vw]  border-1 border-zinc-500 bg-emerald-300 px-4 py-2 rounded-4xl '>5 Public Projects</h3></button>
                     </div>
-                    <a href='https://github.com/GAWD24' target="_blank" className="github h-8 w-8 object-cover absolute right-3 top-3 text-zinc-800">
+                    <a href='https://github.com/MaverickP24' target="_blank" className="github h-8 w-8 object-cover absolute right-3 top-3 text-zinc-800">
                     <svg className='h-full w-full' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                         <path
                         fill="currentColor"

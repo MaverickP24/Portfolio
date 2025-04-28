@@ -3,7 +3,7 @@ import React from 'react'
 const AboutMe = () => {
   return (
    <>
-   <div className="all h-[80vh] w-full relative flex flex-col items-center ">
+   <div className="all h-[80vh] w-full relative flex flex-col items-center mt-20 md:mt-10 ">
         <div className='w-[60vw] text-center'>
         <h1 className=' text-[5vw] md:text-[3vw] font-[Skia] text-emerald-500 font-semibold'>About Me</h1>
         <p className='text-[3vw] md:text-[1.5vw] font-[Skia] text-center '>Here you can find a little bit about me. I am a passionate designer and developer !</p>
@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <div className="lower relative flex flex-row justify-between">
                         <div>
                         <div className="font-[alag anzo] px-[2vw] md:px-12"><h1 className='text-[3vw] md:text-[1.8vw] font-bold'>Pratyush</h1></div>
-                        <div className="font-[anzo] px-[2vw] md:px-12"><h1 className='text-[15px] font-light'>MaverickP24</h1></div>
+                        <div className="font-[anzo] px-[2vw] md:px-12"><h1 className='text-[10px] md:text-[15px] font-light'>MaverickP24</h1></div>
                         </div>
                         <button className='md:px-5 md:py-3  px-[2vw] py-[1vw] hidden md:block '><h3 className=' text-[1vw]  border-1 border-zinc-500 bg-emerald-300 px-4 py-2 rounded-4xl '>5 Public Projects</h3></button>
                     </div>

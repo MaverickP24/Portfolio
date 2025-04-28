@@ -5,23 +5,21 @@ const AboutMe = () => {
    <>
    <div className="all h-[80vh] w-full relative flex flex-col items-center mt-22">
         <div className='w-[60vw]'>
-        <h1 className=' text-[5vw] md:text-[3vw] font-[Skia] text-emerald-500 font-semibold'>About Me</h1>
-        <p className='text-[3vw] md:text-[1.5vw] font-[Skia]'>Here you can find a little bit about me. I am a passionate designer and developer !</p>
-
-
+        <h1 className=' text-4xl font-[Skia] text-emerald-500 font-semibold'>About Me</h1>
+        <p className='text-[18px] font-[Skia]'>Here you can find a little bit about me. I am a passionate designer and developer !</p>
         <div className="details flex flex-col gap-5">
-            <div className="aboutme flex flex-col md:flex-row gap-6 mt-10 relative">
-                <div className="name border-1 rounded-4xl border-zinc-400 w-full h-[30vw] md:w-[40vw] md:h-[15vw] relative">
+            <div className="aboutme flex flex-row gap-6 mt-10 relative">
+                <div className="name border-1 rounded-4xl border-zinc-400 w-[40vw] h-[15vw] relative">
                     <div className="upper h-auto w-full rounded-full object-cover py-3 px-1">
-                        <div className="left-0 md:h-[6.6vw] md:w-[6.6vw]  h-[10vw] w-[10vw]  rounded-full object-cover mt-[1vw] ml-[2vw]">
+                        <div className="left-0 h-[6.6vw] w-[6.6vw] rounded-full object-cover mt-6 ml-10">
                         <img className='h-full w-full rounded-full object-cover object-[30%_80%]' src="https://i.imgur.com/QNgVRzy.jpeg" alt="L" /></div>
                     </div>
                     <div className="lower relative flex flex-row justify-between">
                         <div>
-                        <div className="font-[alag anzo] px-[2vw] md:px-12"><h1 className='text-[3vw] md:text-[1.8vw] font-bold'>Pratyush</h1></div>
-                        <div className="font-[anzo] px-[2vw] md:px-12"><h1 className='text-[15px] font-light'>MaverickP24</h1></div>
+                        <div className="font-[alag anzo] px-12"><h1 className='text-2xl font-bold'>Pratyush</h1></div>
+                        <div className="font-[anzo] px-12"><h1 className='text-[15px] font-light'>MaverickP24</h1></div>
                         </div>
-                        <button className='md:px-5 md:py-3  px-[2vw] py-[1vw] hidden md:block '><h3 className=' text-[1vw]  border-1 border-zinc-500 bg-emerald-300 px-4 py-2 rounded-4xl '>5 Public Projects</h3></button>
+                        <button className='px-5 py-3 '><h3 className=' text-[15px]  border-1 border-zinc-500 bg-emerald-300 px-4 py-2 rounded-4xl '>5 Public Projects</h3></button>
                     </div>
                     <a href='https://github.com/GAWD24' target="_blank" className="github h-8 w-8 object-cover absolute right-3 top-3 text-zinc-800">
                     <svg className='h-full w-full' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">

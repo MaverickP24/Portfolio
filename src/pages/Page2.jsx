@@ -31,7 +31,7 @@ function Page2(){
     <>
     <div className='work relative flex flex-col items-center h-auto w-full mt-20'>
 
-      <div className="vertical h-full w-1 border-2 border-emerald-200 absolute bg-emerald-100 left-[50.35%] mt-16"></div>
+      <div className="vertical hidden md:block h-full w-1 border-2 border-emerald-200 absolute bg-emerald-100 left-[50.35%] mt-16"></div>
 
 
         <h1 className="border-2 border-emerald-700 hover:bg-emerald-100 duration-700 text-3xl h-fit px-5 py-3 rounded-2xl uppercase font-[Skia] font-bold text-emerald-500">Latest Projects</h1>
@@ -39,18 +39,19 @@ function Page2(){
         {project.map((data,idx)=> (
 
           idx%2 == 0 
+
           ?
 
-          <div key={idx} className="p1 relative flex justify-between items-center flex-row w-full px-15 py-6">
+          <div key={idx} className="p1 relative flex justify-between items-center flex-col w-full px-15 py-6 md:flex-row">
 
               <div className="details w-[35vw] h-auto">
-                <h3 className='text-3xl font-[Skia] mb-4 '>{data.name}</h3>
+                <h3 className='text-[3vw] font-[Skia] mb-4 '>{data.name}</h3>
                 {/* <span>(Clone Web)</span> */}
-                <p className='my-4 font-[Skia]'>{data.description}</p>
-                <ul className='w-full flex gap-2 mt-2 font-[American Typewriter]'>
+                <p className='my-4 font-[Skia] text-[1vw]'>{data.description}</p>
+                <ul className='w-[25vw] flex gap-2 mt-2 font-[American Typewriter]'>
                   {data.skills.map((item,idxx)=>(
                     <li>
-                    <h5 key={idxx} className='border-2 capitalize font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>{item}</h5>
+                    <h5 key={idxx} className='border-2 text-[1.2vw] capitalize font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1 '>{item}</h5>
                   </li>
                   ))}
                 </ul>
@@ -64,18 +65,18 @@ function Page2(){
                 </a>
               </div>
               </div>
-              <a href={data.link} className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-orange-500"></a>
-              <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[51%] border-t-1 border-orange-500"></div>
+              <a href={data.link} className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-orange-500 hidden md:block"></a>
+              <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[51%] border-t-1 border-orange-500 hidden md:block"></div>
 
               
           </div>
 
           :
 
-          <div className="p2 relative flex justify-between items-center flex-row w-full px-15 py-6">
+          <div className="p2 relative flex justify-between items-center flex-col md:flex-row w-full px-15 py-6">
 
            
-            <div className="img-details w-[30vw] h-auto  ">
+            <div className="img-details w-[30vw] h-auto hidden md:block  ">
               <div className="imageWRAP flex items-end">
                 <a className='' href={data.link}>
                   <img src={data.image} alt="" className=' object-cover hover:scale-120 transition duration-300' />
@@ -84,21 +85,30 @@ function Page2(){
             </div>
 
 
-            <a href={data.link} className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-blue-500"></a>
-            <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[15%] border-t-1 border-blue-500"></div>
+            <a href={data.link} className="dot bg-white z-50 absolute left-[50%] top-[50%] h-[15px] w-[15px] rounded-full border-3 border-blue-500 hidden md:block"></a>
+            <div className="dot-ext absolute h-1 w-[35%] -z-1 top-[51.5%] left-[15%] border-t-1 border-blue-500 hidden md:block "></div>
 
 
             <div className="details w-[35vw] h-auto">
-              <h3 className='text-3xl font-[Skia] mb-4'>{data.name}</h3>
+              <h3 className='text-[3vw] font-[Skia] mb-4'>{data.name}</h3>
               <span>(Crypto web)</span>
-              <p className='my-4 font-[Skia]'>{data.description}</p>
+              <p className='my-4 font-[Skia] text-[1vw] '>{data.description}</p>
               <ul className='w-full flex gap-2 mt-2 font-[American Typewriter]'>
                   {data.skills.map((item,idxx)=>(
                     <li>
-                    <h5 key={idxx} className='border-2 capitalize font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>{item}</h5>
+                    <h5 key={idxx} className='border-2 capitalize text-[1.2vw] font-[American_Typewriter] border-emerald-700 rounded-4xl px-3 py-1'>{item}</h5>
                   </li>
                   ))}
               </ul>
+            </div>
+
+
+            <div className="img-details w-[30vw] h-auto  md:hidden  ">
+              <div className="imageWRAP flex items-end">
+                <a className='' href={data.link}>
+                  <img src={data.image} alt="" className=' object-cover hover:scale-120 transition duration-300' />
+                </a>
+              </div>
             </div>
         </div>
         ))}

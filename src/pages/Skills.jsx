@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="min-h-screen w-full relative ">
         <div className="skills flex justify-center mt-16 ml-3"><h1 className='border-2 border-emerald-700 hover:bg-emerald-100 duration-700 text-3xl h-fit px-5 py-3 rounded-2xl uppercase font-[Skia] font-bold text-emerald-500'>My Skills</h1></div>
 
-        <p className='m-auto flex justify-center mt-10'><h4 className='text-xl font-[Skia]'>I enjoy creating unique and intuitive digital experiences by utilizing a variety of tools that I have mastered over my months of experience.</h4></p>
+        <p className='m-auto flex justify-center mt-10 mx-10'><h4 className='text-[3vw] md:text-[2vw] font-[Skia]'>I enjoy creating unique and intuitive digital experiences by utilizing a variety of tools that I have mastered over my months of experience.</h4></p>
 
         <div className="skills-details flex flex-col gap-[2vw] h-auto w-[60vw] m-auto mt-20">
             <div className="s0 flex gap-[2vw] ml-3">

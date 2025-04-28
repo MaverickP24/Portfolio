@@ -4,9 +4,9 @@ const AboutMe = () => {
   return (
    <>
    <div className="all h-[80vh] w-full relative flex flex-col items-center mt-22">
-        <div className='w-[60vw]'>
+        <div className='w-[60vw] text-center'>
         <h1 className=' text-[5vw] md:text-[3vw] font-[Skia] text-emerald-500 font-semibold'>About Me</h1>
-        <p className='text-[3vw] md:text-[1.5vw] font-[Skia]'>Here you can find a little bit about me. I am a passionate designer and developer !</p>
+        <p className='text-[3vw] md:text-[1.5vw] font-[Skia] text-center '>Here you can find a little bit about me. I am a passionate designer and developer !</p>
 
 
         <div className="details flex flex-col gap-5">
@@ -31,28 +31,28 @@ const AboutMe = () => {
                     </svg>
                     </a>
                 </div>
-                <div className="location border-1  rounded-4xl border-zinc-400 w-[20vw] h-[15vw]  object-top overflow-hidden relative">
-                    <img className=' absolute top-10 left-2 h-full w-full  scale-[140%] object-top' src="https://i.imgur.com/LAkzOFj.png" alt="L" />
+                <div className="location border-1  rounded-4xl border-zinc-400   w-auto h-[30vw]  md:w-[25vw] md:h-[15vw]  object-top overflow-hidden relative">
+                    <img className=' absolute md:top-10 left-2 h-full w-full  scale-[140%] object-top' src="https://i.imgur.com/LAkzOFj.png" alt="L" />
                 </div>
                 
             </div>
-            <div className="aboutme flex flex-row gap-6  ">
-                <div className="CV border-1 relative rounded-4xl border-zinc-400 w-[25vw] h-[15vw] bg-black flex flex-col items-center font-[anzo3] overflow-y-hidden group ">
-                    <h2 className=' text-2xl text-white pt-4 pb-2 '>My Curriculum Vitae</h2>
-                    <h5 className='text-[15px] text-white font-[anzo]'>Hover to Download</h5>
+            <div className="aboutme flex flex-col md:flex-row gap-6  ">
+                <div className="CV border-1 relative rounded-4xl border-zinc-400 w-auto h-[30vw]  md:w-[25vw] md:h-[15vw] bg-black flex flex-col items-center font-[anzo3] overflow-y-hidden group ">
+                    <h2 className=' text-[3.5vw] md:text-[2vw] text-white pt-4 pb-2 '>My Curriculum Vitae</h2>
+                    <h5 className='text-[15px] hidden md:block text-white font-[anzo]'>Hover to Download</h5>
 
 
                     <div className="h-[20px]  z-30  absolute bottom-10 opacity-0 group-hover:opacity-[100%]  transition-all duration-300 "><a href="https://drive.usercontent.google.com/u/0/uc?id=1wk8TMr5aTZp4sCI872DewazeiKE6PPiD&export=download"className='text-white px-4 py-2 rounded-3xl bg-emerald-600'>DOWNLOAD CV</a></div>
 
 
-                    <div className='resume h-[18vw] w-[16vw] bg-emerald-500 rounded-2xl absolute top-25 transition-all duration-300 group-hover:top-4 '><a target='_blank' href="https://drive.google.com/file/d/1wk8TMr5aTZp4sCI872DewazeiKE6PPiD/view?usp=sharing"><img src="https://i.imgur.com/uOtGkbz.png" className='rounded-[10px]' alt="i" /></a>
+                    <div className='resume md:h-[18vw] md:w-[16vw] w-[30vw] bg-emerald-500 rounded-2xl absolute top-15 md:top-25 transition-all duration-300 group-hover:top-4 '><a target='_blank' href="https://drive.google.com/file/d/1wk8TMr5aTZp4sCI872DewazeiKE6PPiD/view?usp=sharing"><img src="https://i.imgur.com/uOtGkbz.png" className='rounded-[10px]' alt="i" /></a>
                     
                     
                     </div>
  
 
                 </div>
-                <div className="vdo border-1 rounded-4xl border-zinc-400 w-[35vw] h-[15vw] overflow-hidden relative"><video className=' absolute bottom-0 -left-10 scale-[130%]' loop autoPlay muted  src="https://cdn.pixabay.com/video/2023/07/04/169951-842348732_large.mp4"></video></div>
+                <div className="vdo border-1 rounded-4xl border-zinc-400 w-auto h-[40vw] md:w-[35vw] md:h-[15vw] overflow-hidden relative"><video className=' absolute md:bottom-0 -left-10 scale-[130%]' loop autoPlay muted  src="https://cdn.pixabay.com/video/2023/07/04/169951-842348732_large.mp4"></video></div>
             </div>
 
 

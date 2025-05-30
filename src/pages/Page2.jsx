@@ -4,6 +4,13 @@ function Page2(){
 
   const project = [
     {
+    name: 'Apna Stays - A Hotel Booking Website',
+    description:"A static accommodation website built with ReactJS and TailwindCSS, featuring a responsive UI with room listings, resident testimonials, and a clean, user-friendly layout for a seamless browsing experience",
+    image:"/apnastays.png",
+    link: "https://hotel-booking-system-b3qx9nes9-pratyush-dun.vercel.app/",
+    skills:["ReactJS","TailwindCSS","Figma"]
+  },
+{
       name: "Zentry - Gamming Community",
       description:"Built a dynamic and responsive clone of Zentry – a gaming community platform – using React, Tailwind CSS, and GSAP. Crafted immersive animations and interactive UI components to elevate user engagement. Prioritized clean design, responsiveness, and smooth performance across all devices.",
       image:"https://i.imgur.com/dJcp7eN.png",
@@ -17,14 +24,7 @@ function Page2(){
     link: "https://sundownstudios.netlify.app/",
     skills:["HTML","CSS","javascript"]
   },
-  {
-    name: 'Reigns God - NFT Market ',
-    description:"a static NFT marketplace website with HTML and CSS, featuring a responsive UI with NFT collections, artist profiles, and a modern, intuitive layout for a seamless browsing experience.",
-    image:"https://i.imgur.com/2NzZel5.png",
-    link: "https://reignsgod.netlify.app/",
-    skills:["HTML","CSS","Figma"]
-  },
-
+  
 ]
 
   return (

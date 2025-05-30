@@ -28,6 +28,7 @@ const LandingPg = () => {
 
   return (
     <>
+    <div className="w-screen h-[85vw] md:h-[70vw] overflow-hidden relative -scale-[99%] -left-2">
     <div className='h-auto w-screen' >
     <div id='page1' onMouseMove={(e)=>{
         mouseMoving(e)
@@ -103,6 +104,7 @@ const LandingPg = () => {
         </div>
 </div>
 
+    </div>
     </div>
     </div>
     </>

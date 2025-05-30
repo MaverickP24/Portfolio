@@ -14,7 +14,7 @@ const AboutMe = () => {
                 <div className="name border-1 rounded-4xl border-zinc-400 w-full h-[30vw] md:w-[40vw] md:h-[15vw] relative">
                     <div className="upper h-auto w-full rounded-full object-cover py-3 px-1">
                         <div className="left-0 md:h-[6.6vw] md:w-[6.6vw]  h-[10vw] w-[10vw]  rounded-full object-cover mt-[1vw] ml-[2vw]">
-                        <img className='h-full w-full rounded-full object-cover object-[30%_80%]' src="https://i.imgur.com/QNgVRzy.jpeg" alt="L" /></div>
+                        <img className='h-full w-full rounded-full object-cover object-[30%_80%]' src="/user.jpg" alt="L" /></div>
                     </div>
                     <div className="lower relative flex flex-row justify-between">
                         <div>
@@ -42,10 +42,10 @@ const AboutMe = () => {
                     <h5 className='text-[15px] hidden md:block text-white font-[anzo]'>Hover to Download</h5>
 
 
-                    <div className="h-[20px]  z-30  absolute bottom-10 opacity-0 group-hover:opacity-[100%]  transition-all duration-300 "><a href="https://drive.usercontent.google.com/u/0/uc?id=1wk8TMr5aTZp4sCI872DewazeiKE6PPiD&export=download"className='text-white px-4 py-2 rounded-3xl bg-emerald-600'>DOWNLOAD CV</a></div>
+                    <div className="h-[20px]  z-30  absolute bottom-10 opacity-0 group-hover:opacity-[100%]  transition-all duration-300 "><a href="https://drive.usercontent.google.com/u/3/uc?id=1IR5M5yNnZ-e3ZsjFkvy8e8ZNhHvDe4RX&export=download"className='text-white px-4 py-2 rounded-3xl bg-emerald-600'>DOWNLOAD CV</a></div>
 
 
-                    <div className='resume md:h-[18vw] md:w-[16vw] w-[30vw] bg-emerald-500 rounded-2xl absolute top-15 md:top-25 transition-all duration-300 group-hover:top-4 '><a target='_blank' href="https://drive.google.com/file/d/1wk8TMr5aTZp4sCI872DewazeiKE6PPiD/view?usp=sharing"><img src="https://i.imgur.com/uOtGkbz.png" className='rounded-[10px]' alt="i" /></a>
+                    <div className='resume md:h-[18vw] md:w-[16vw] w-[30vw] bg-emerald-500 rounded-2xl absolute top-15 md:top-25 transition-all duration-300 group-hover:top-4 '><a target='_blank' href="https://drive.google.com/file/d/1IR5M5yNnZ-e3ZsjFkvy8e8ZNhHvDe4RX/view"><img src={"/CV.png"} className='rounded-[10px]' alt="i" /></a>
                     
                     
                     </div>

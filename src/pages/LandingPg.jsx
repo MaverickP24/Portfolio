@@ -35,7 +35,7 @@ const LandingPg = () => {
     }} className='h-[60vw] w-full p-4 mx-auto text-white' >
 
 <div className=" mix-blend-multiply m-4 mb-1 p-6 rounded-4xl h-[60vw] w-full bg-gradient-to-r from-black to-transparent z-10  top-0 left-0  absolute ">
-        <div id='page1-in' className="absolute top-0 left-0 shadow-2xl shadow-gray-700 h-[60vw] w-[98vw] bg-[url(https://i.imgur.com/8SxDB1S.jpeg)] bg-[length:120%] bg-left py-10 px-12 rounded-4xl">
+        <div id='page1-in' className="absolute top-0 left-0 shadow-2xl shadow-gray-700 h-[60vw] w-[98vw] bg-[url(/face.jpg)] bg-[length:120%] bg-left py-10 px-12 rounded-4xl">
             
             <div className=' mix-blend-multiply absolute top-0 left-0 shadow-2xl shadow-gray-700 h-[60vw] w-[98vw]  rounded-4xl bg-gradient-to-r from-black to-transparent z-10 '></div>
 

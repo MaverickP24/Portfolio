@@ -13,14 +13,14 @@ function Page2(){
 {
       name: "Zentry - Gamming Community",
       description:"Built a dynamic and responsive clone of Zentry – a gaming community platform – using React, Tailwind CSS, and GSAP. Crafted immersive animations and interactive UI components to elevate user engagement. Prioritized clean design, responsiveness, and smooth performance across all devices.",
-      image:"https://i.imgur.com/dJcp7eN.png",
+      image:"/zentry.png",
       link: "https://zentry-sable.vercel.app/",
       skills:["React","GSAP","Tailwind CSS"]
     },
   {
     name: 'SunDown Studios',
     description: "Developed a fully responsive Sundown Studios Clone using HTML, CSS, and JavaScript. Designed an intuitive UI/UX with smooth animations and interactive elements to boost engagement. Focused on pixel-perfect design, responsive layouts, and optimized performance for a seamless, accessible, and efficient user experience across devices.",
-    image:"https://i.imgur.com/gsiahdc.png",
+    image:"/sundown-mcb.png",
     link: "https://sundownstudios.netlify.app/",
     skills:["HTML","CSS","javascript"]
   },

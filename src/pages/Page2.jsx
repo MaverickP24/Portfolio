@@ -7,7 +7,7 @@ function Page2(){
     name: 'Apna Stays - A Hotel Booking Website',
     description:"A static accommodation website built with ReactJS and TailwindCSS, featuring a responsive UI with room listings, resident testimonials, and a clean, user-friendly layout for a seamless browsing experience",
     image:"/apnastays.png",
-    link: "https://hotel-booking-system-b3qx9nes9-pratyush-dun.vercel.app/",
+    link: "https://hotel-booking-system-tawny.vercel.app",
     skills:["ReactJS","TailwindCSS","Figma"]
   },
 {
